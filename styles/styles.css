@@ -16,7 +16,7 @@ ul.navbar {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #68417f;
+  background-color: #7F867B;
   position: -webkit-sticky;
   position: sticky;
   top:0;
@@ -39,12 +39,12 @@ ul.navbar li a {
 }
 
 ul.navbar li a:hover {
-  background-color: #c66aab;
+  background-color: #D4C8BE;
 }
 
 a.active {
   font-weight: 700;
-  background-color: #219bc3;
+  background-color: #AF9F8C;
 }
 
 /* Header Image */
@@ -65,28 +65,24 @@ img.headshot {
 border-radius: 50%;
 width: 15vw;
 height: auto;
-border: 0.15em solid #b2d3e1;
+border: 0.15em solid #E3E4E0;
 float: right;
 margin-right: 20%;
 margin-top: 1%;
 }
 
-.headshotwrapper a {
-font-weight: 1000;
-font-size: 125%;
-}
 
 a:hover {
-color: #f2cfda;
+color: #D4C8BE;
 }
 
 a{
-color: #219bc3;
+color: #E3E4E0;
 text-decoration: none;
 }
 
 .footer {
-background-color: #1c1122;
+background-color: #323531;
 font-size: 75%;
 padding: 1em;
 margin-top: 2vh;
@@ -98,12 +94,8 @@ text-align: center;
   color: inherit;
 }
 
-.footer a:hover {
-  color: #f2cfda;
-}
-
 .gallery {
-border: 0.15em solid #b2d3e1;
+border: 0.15em solid #E3E4E0;
 width: 25vw;
 height: auto;
 }
