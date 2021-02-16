@@ -85,17 +85,6 @@ color: #219bc3;
 text-decoration: none;
 }
 
-ul {
-  list-style: none; /* Remove default bullets */
-}
-
-/* Custom List */
-dd {
-  display: list-item;
-  list-style-type: "";
-  padding-inline-start: 0ch;
-}
-
 .footer {
 background-color: #1c1122;
 font-size: 75%;
