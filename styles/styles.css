@@ -92,8 +92,8 @@ ul {
 /* Custom List */
 dd {
   display: list-item;
-  list-style-type: "🔵";
-  padding-inline-start: 1ch;
+  list-style-type: "";
+  padding-inline-start: 0ch;
 }
 
 .footer {
