@@ -119,3 +119,7 @@ height: auto;
 .contactinfo {
   display:inline-block;
 }
+
+video {
+  margin-top: 1em;
+}
