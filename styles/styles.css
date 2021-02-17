@@ -95,6 +95,7 @@ text-align: center;
 
 .footer a:hover{
   color: #E3E4E0;
+  font-weight: bold;
 }
 
 .gallery {
