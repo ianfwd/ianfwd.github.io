@@ -60,6 +60,9 @@ margin-left: 2vw;
 max-width: 50%;
 }
 
+.intro {
+  margin-bottom: 2em;
+}
 
 /* Headshot Image */
 img.headshot {
