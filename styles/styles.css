@@ -109,8 +109,12 @@ height: auto;
     margin-top: 6vh;
 }
 
+.infobanner {
+    margin-bottom: 1em;  
+}
+
 @media only screen and (max-width: 1080px) {
-  .contactbanner {
+  .infobanner {
     max-width: 80vw;
   }
 }
