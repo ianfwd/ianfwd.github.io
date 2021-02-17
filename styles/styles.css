@@ -89,6 +89,9 @@ font-size: 75%;
 padding: 1em;
 margin-top: 2vh;
 text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
 }
 
 .footer a {
@@ -111,10 +114,12 @@ video {
 border: 0.15em solid #E3E4E0;
 width: 25vw;
 height: auto;
+max-width: 80%;
 }
 
-.vidmargin {
+.vidstyle {
   margin-bottom: 2vh;
+  max-width: 80%;
 }
 
 .portfoliodescription {
@@ -143,4 +148,5 @@ height: auto;
   .text {
     max-width: 90%;
   }
+
 }
