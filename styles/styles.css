@@ -56,6 +56,10 @@ margin-top: 2vh;
 margin-left: 2vw;
 }
 
+.text {
+max-width: 50%;
+}
+
 
 /* Headshot Image */
 img.headshot {
@@ -135,5 +139,8 @@ height: auto;
     margin-right: 7.5%;
     width: 25%;
     height: auto;
+  }
+  .text {
+    max-width: 90%;
   }
 }
