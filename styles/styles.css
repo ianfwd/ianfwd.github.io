@@ -1,3 +1,4 @@
+/* General Layout */
 html, body {
   margin: 0; padding: 0;
 }
@@ -64,10 +65,10 @@ height: auto;
 border: 0.15em solid #E3E4E0;
 float: right;
 margin-right: 20%;
-margin-top: 1%;
+margin-top: 2.5%;
 }
 
-
+/* Link style */
 a:hover {
 color: #D4C8BE;
 }
@@ -77,6 +78,7 @@ color: #E3E4E0;
 text-decoration: none;
 }
 
+/* Footer Layout */
 .footer {
 background-color: #323531;
 font-size: 75%;
@@ -93,6 +95,12 @@ text-align: center;
 .footer a:hover{
   color: #E3E4E0;
   font-weight: bold;
+}
+
+/* Media layout */
+
+video {
+  margin-top: 1em;
 }
 
 .gallery {
@@ -115,16 +123,17 @@ height: auto;
     margin-bottom: 1em;
 }
 
+/* Responsive */
 @media only screen and (max-width: 1080px) {
   .infobanner {
     max-width: 80vw;
   }
-}
-
-.contactinfo {
-  display:inline-block;
-}
-
-video {
-  margin-top: 1em;
+  ul.navbar li {
+    font-size: 75%;
+  }
+  img.headshot {
+    margin-right: 10%;
+    width: 25%;
+    height: auto;
+  }
 }
