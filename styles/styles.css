@@ -56,12 +56,18 @@ margin-top: 2vh;
 margin-left: 2vw;
 }
 
-.text {
+
+.content.text {
 max-width: 50%;
 }
 
-.intro {
+.content.text.intro {
   margin-bottom: 2em;
+}
+
+
+.content.contact{
+  margin-top: 4vh;
 }
 
 .notfound {
@@ -92,11 +98,19 @@ text-decoration: none;
 
 /* Footer Layout */
 .footer {
+max-width: 100vw;
 background-color: #323531;
 font-size: 75%;
 padding: 1em;
 margin-top: 2vh;
 text-align: center;
+}
+
+.footer.contact {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .footer a {

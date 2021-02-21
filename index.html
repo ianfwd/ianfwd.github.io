@@ -6,20 +6,27 @@
       <link rel="stylesheet" href="styles/styles.css">
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-          <title>Ian Wdowiak</title>
+      <title>Ian Wdowiak</title>
       <link rel="icon" type="image/png" href="images/favicon.png">
       <meta name="description" content="Comunicador Audiovisual, Vendedor, Data Entry, Soporte Técnico IT.">
     </head>
   <body>
     <header>
-          <img class=headerimg src=images/header.jpg>
+      <picture>
+        <img class=headerimg
+        srcset="images/header/header1920w.jpg 1920w, images/header/header1366w.jpg 1366w, images/header/header800w.jpg 800w"
+        sizes="(max-width: 1366w) 1366px, (max-width: 1080w) 1080px, (max-width: 800w) 800px, 1920px"
+        src="images/header/header1920w.jpg"
+        alt="Ian Wdowiak"
+        onerror="this.style.display='none'"/>
+        </picture>
     </header>
       <ul class=navbar>
         <li><a href="index" class="active">Inicio</a></li>
         <li><a href="portfolio">Portfolio</a></li>
         <li><a href="contacto">Contacto</a></li>
       </ul>
-      <img src="images/headshot.jpg" class="headshot">
+      <img src="images/headshot.jpg" class="headshot" alt="Foto de Perfil Ian Wdowiak">
         <div class="content text intro">
         Hola! Mi nombre es Ian Wdowiak. Vivo en Buenos Aires, Argentina. </div>
         <div class="content text">

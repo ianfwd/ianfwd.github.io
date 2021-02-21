@@ -12,7 +12,14 @@
     </head>
   <body>
     <header>
-      <img class=headerimg src=images/header.jpg>
+      <picture>
+      <img class=headerimg
+        srcset="images/header/header-design1920w.jpg 1920w, images/header/header-design1366w.jpg 1366w, images/header/header-design800w.jpg 800w"
+        sizes="(max-width: 1366w) 1366px, (max-width: 1080w) 1080px, (max-width: 800w) 800px, 1920px"
+        src="images/header/header-design1920w.jpg"
+        alt="Ian Wdowiak"
+        onerror="this.style.display='none'"/>
+      </picture>
     </header>
         <ul class=navbar>
         <li><a href="index">Inicio</a></li>
@@ -20,7 +27,6 @@
         <li><a href="contacto">Contacto</a></li>
       </ul>
         <div class="content text">
-<img src="images/design-banner.jpg" class="infobanner"/><br>
 Al diseñar esta página, establecí los siguientes objetivos:
   <h3>Velocidad y eficiencia.</h3>
   Fue diseñada íntegramente con las tecnologías HTML5, CSS y JavaScript.
