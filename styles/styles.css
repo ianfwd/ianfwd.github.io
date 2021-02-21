@@ -58,7 +58,7 @@ margin-left: 2vw;
 
 
 .content.text {
-max-width: 50%;
+max-width: 66%;
 }
 
 .content.text.intro {
@@ -147,8 +147,10 @@ max-width: 80%;
     margin-top: 6vh;
 }
 
-.infobanner {
-    margin-bottom: 1em;
+.speedresult {
+  float: right;
+  margin: 2.5vw;
+  max-width: 30vw;
 }
 
 /* Responsive */
