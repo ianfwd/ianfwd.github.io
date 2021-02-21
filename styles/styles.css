@@ -84,6 +84,7 @@ border: 0.15em solid #E3E4E0;
 float: right;
 margin-right: 20%;
 margin-top: 2.5%;
+margin-bottom: 0;
 }
 
 /* Link style */
@@ -155,9 +156,6 @@ max-width: 80%;
 
 /* Responsive */
 @media only screen and (max-width: 1080px) {
-  .infobanner {
-    max-width: 80vw;
-  }
   ul.navbar li {
     font-size: 75%;
   }
@@ -166,7 +164,7 @@ max-width: 80%;
     width: 25%;
     height: auto;
   }
-  .text {
+  .content.text {
     max-width: 90%;
   }
 
