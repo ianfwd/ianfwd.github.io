@@ -12,8 +12,15 @@
     </head>
   <body>
     <header>
-          <img class=headerimg src=images/header.jpg>
-    </header>
+        <picture>
+          <img
+          class=headerimg
+          srcset="images/header/header-design1920w.jpg 1920w, images/header/header-design1366w.jpg 1366w, images/header/header-design1080w.jpg 1080w, images/header/header-design800w.jpg 800w"
+          sizes="100vw"
+          src="images/header/header-design1920w.jpg"
+          alt="Design"/>
+          </picture>
+      </header>
       <ul class=navbar>
         <li><a href="index" class="active">Inicio</a></li>
         <li><a href="portfolio">Portfolio</a></li>
