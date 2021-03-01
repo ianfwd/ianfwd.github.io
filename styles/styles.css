@@ -117,11 +117,13 @@ text-align: center;
 .footer a {
   text-decoration: none;
   color: inherit;
+  letter-spacing: 0.235px;
 }
 
 .footer a:hover{
   color: #E3E4E0;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: 0;
 }
 
 /* Media layout */
@@ -148,12 +150,6 @@ max-width: 80%;
     margin-top: 6vh;
 }
 
-.speedresult {
-  float: right;
-  margin: 2.5vw;
-  max-width: 30vw;
-}
-
 /* Responsive */
 @media only screen and (max-width: 1080px) {
   ul.navbar li {
@@ -168,4 +164,13 @@ max-width: 80%;
     max-width: 90%;
   }
 
+}
+
+/* Font */
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+  font-display: swap;
 }
